@@ -1,0 +1,4 @@
+def triple(num):
+    return int (num)*3
+result= map(triple, input('Enter the list of integers : ').split(','))
+print('Triple of all the avilable numbers : ',list(result))                               
